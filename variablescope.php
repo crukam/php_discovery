@@ -26,6 +26,8 @@ echo "$name\n";
 
 //sample3
 function print_getglobalName (){
+    global $name;
+    $name = "I am changing this variable for fun";
     echo "$name\n";
 }
 print_getglobalName ();
