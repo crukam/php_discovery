@@ -23,3 +23,4 @@
  }
  print_const();
  echo my_prevname."\n";
+ echo `ls *.php`;
