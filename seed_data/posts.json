@@ -1,0 +1,54 @@
+[
+	{
+		"Code": "EXH",
+		"Name": "Executive Head Teacher"
+	},
+	{
+		"Code": "HDT",
+		"Name": "Head Teacher"
+	},
+	{
+		"Code": "DHT",
+		"Name": "Deputy Head"
+	},
+	{
+		"Code": "AHT",
+		"Name": "Assistant Head"
+	},
+	{
+		"Code": "TCH",
+		"Name": "Classroom Teacher"
+	},
+	{
+		"Code": "TCM",
+		"Name": "Classroom Teacher, main pay range"
+	},
+	{
+		"Code": "TCU",
+		"Name": "Classroom Teacher, upper pay range"
+	},
+	{
+		"Code": "LDP",
+		"Name": "Leading Practitioner"
+	},
+	{
+		"Code": "APP",
+		"Name": "Apprentice Teacher"
+	},
+	{
+		"Code": "LNT",
+		"Name": "Leadership - Non Teacher"
+	},
+	{
+		"Code": "OSP",
+		"Name": "Other Support Staff"
+	},
+	{
+		"Code": "AVT",
+		"Name": "Advisory Teacher"
+	},
+	{
+		"Code": "TAS",
+		"Name": "Teaching Assistant"
+	}
+]

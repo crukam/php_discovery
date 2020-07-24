@@ -1,0 +1,314 @@
+[
+	{
+		"role_code": "ADVT",
+		"role_name": "Advisory Teacher (unattached)"
+	},
+	{
+		"role_code": "ASHT",
+		"role_name": "Assistant Head"
+	},
+	{
+		"role_code": "CADV",
+		"role_name": "Careers Advisor"
+	},
+	{
+		"role_code": "TCHR",
+		"role_name": "Classroom Teacher"
+	},
+	{
+		"role_code": "DPHT",
+		"role_name": "Deputy Head"
+	},
+	{
+		"role_code": "HDPT",
+		"role_name": "Head of Department"
+	},
+	{
+		"role_code": "HDHO",
+		"role_name": "Head of House"
+	},
+	{
+		"role_code": "HDYR",
+		"role_name": "Head of Year"
+	},
+	{
+		"role_code": "HDTR",
+		"role_name": "Head Teacher"
+	},
+	{
+		"role_code": "EXHT",
+		"role_name": "Executive Head Teacher"
+	},
+	{
+		"role_code": "SPLY",
+		"role_name": "LA Supply Pool"
+	},
+	{
+		"role_code": "LRNM",
+		"role_name": "Learning Manager"
+	},
+	{
+		"role_code": "MISC",
+		"role_name": "Miscellaneous Teaching Service for the LA"
+	},
+	{
+		"role_code": "PERI",
+		"role_name": "Peripatetic Teacher (unattached)"
+	},
+	{
+		"role_code": "SENC",
+		"role_name": "SEN Co-ordinator"
+	},
+	{
+		"role_code": "TNON",
+		"role_name": "Teacher: engaged for non-school education"
+	},
+	{
+		"role_code": "TPRU",
+		"role_name": "Teacher: engaged to teach in a Pupil Referral Unit"
+	},
+	{
+		"role_code": "TMIS",
+		"role_name": "Teacher: engaged to teach in miscellaneous establishments"
+	},
+	{
+		"role_code": "BEHM",
+		"role_name": "Behaviour Manager/Specialist"
+	},
+	{
+		"role_code": "BILN",
+		"role_name": "Bilingual Support Assistant"
+	},
+	{
+		"role_code": "CARE",
+		"role_name": "Childcare Officer"
+	},
+	{
+		"role_code": "COVR",
+		"role_name": "Cover Supervisor"
+	},
+	{
+		"role_code": "CART",
+		"role_name": "Creative Arts Specialist"
+	},
+	{
+		"role_code": "EPSY",
+		"role_name": "Educational Psychologist"
+	},
+	{
+		"role_code": "EXTS",
+		"role_name": "Extended Schools Manager/Support"
+	},
+	{
+		"role_code": "HLTA",
+		"role_name": "Higher Level Teaching Assistant"
+	},
+	{
+		"role_code": "INST",
+		"role_name": "Instructor (including sports coach)"
+	},
+	{
+		"role_code": "LANG",
+		"role_name": "Language Support"
+	},
+	{
+		"role_code": "LMEN",
+		"role_name": "Learning Mentor"
+	},
+	{
+		"role_code": "LSEN",
+		"role_name": "Learning Support Assistant (for SEN pupils)"
+	},
+	{
+		"role_code": "LITR",
+		"role_name": "Literacy Worker"
+	},
+	{
+		"role_code": "MINS",
+		"role_name": "Minority Ethnic Support"
+	},
+	{
+		"role_code": "MUSS",
+		"role_name": "Music Specialist"
+	},
+	{
+		"role_code": "MUSC",
+		"role_name": "Music tuition (include peripatetic)"
+	},
+	{
+		"role_code": "NNSE",
+		"role_name": "Nursery Nurse"
+	},
+	{
+		"role_code": "NASS",
+		"role_name": "Nursery Officer/Assistant"
+	},
+	{
+		"role_code": "PAST",
+		"role_name": "Pastoral Support"
+	},
+	{
+		"role_code": "TASS",
+		"role_name": "Teaching Assistant"
+	},
+	{
+		"role_code": "THER",
+		"role_name": "Therapist"
+	},
+	{
+		"role_code": "TRAV",
+		"role_name": "Traveller Support"
+	},
+	{
+		"role_code": "WELF",
+		"role_name": "Welfare Assistant"
+	},
+	{
+		"role_code": "ARTD",
+		"role_name": "Art &/or Design Technician"
+	},
+	{
+		"role_code": "ICTM",
+		"role_name": "ICT Network Manager"
+	},
+	{
+		"role_code": "ICTT",
+		"role_name": "ICT Technician"
+	},
+	{
+		"role_code": "OICT",
+		"role_name": "Other ICT Support Staff"
+	},
+	{
+		"role_code": "OTEC",
+		"role_name": "Other Technician"
+	},
+	{
+		"role_code": "RPRG",
+		"role_name": "Reprographics Technician"
+	},
+	{
+		"role_code": "STCH",
+		"role_name": "Science Technician"
+	},
+	{
+		"role_code": "TTCH",
+		"role_name": "Technology Technician"
+	},
+	{
+		"role_code": "ADMC",
+		"role_name": "Administrator / Clerk"
+	},
+	{
+		"role_code": "ATTN",
+		"role_name": "Attendance Officer"
+	},
+	{
+		"role_code": "BURS",
+		"role_name": "Bursar"
+	},
+	{
+		"role_code": "BUSS",
+		"role_name": "Business Manager"
+	},
+	{
+		"role_code": "DATA",
+		"role_name": "Data Manager / Analyst"
+	},
+	{
+		"role_code": "EDWO",
+		"role_name": "Education Welfare Officer"
+	},
+	{
+		"role_code": "EXAM",
+		"role_name": "Examinations Officer"
+	},
+	{
+		"role_code": "FINC",
+		"role_name": "Finance Officer"
+	},
+	{
+		"role_code": "HSLO",
+		"role_name": "Home-School Liaison Officer"
+	},
+	{
+		"role_code": "LIBR",
+		"role_name": "Librarian"
+	},
+	{
+		"role_code": "NURS",
+		"role_name": "Nurse"
+	},
+	{
+		"role_code": "OMAN",
+		"role_name": "Office Manager"
+	},
+	{
+		"role_code": "OCSU",
+		"role_name": "Other Central Support Staff"
+	},
+	{
+		"role_code": "OPSU",
+		"role_name": "Other Pupil Support"
+	},
+	{
+		"role_code": "OPWE",
+		"role_name": "Other Pupil Welfare"
+	},
+	{
+		"role_code": "OADM",
+		"role_name": "Other School Admin"
+	},
+	{
+		"role_code": "PAHT",
+		"role_name": "Personal Assistant to Headteacher"
+	},
+	{
+		"role_code": "RECP",
+		"role_name": "Receptionist"
+	},
+	{
+		"role_code": "SSEC",
+		"role_name": "School Secretary"
+	},
+	{
+		"role_code": "CTKR",
+		"role_name": "Caretaker"
+	},
+	{
+		"role_code": "CLNR",
+		"role_name": "Cleaner"
+	},
+	{
+		"role_code": "COOK",
+		"role_name": "Cook"
+	},
+	{
+		"role_code": "ESCT",
+		"role_name": "Escort"
+	},
+	{
+		"role_code": "INVG",
+		"role_name": "Exam Invigilator"
+	},
+	{
+		"role_code": "MIDA",
+		"role_name": "Midday Assistant"
+	},
+	{
+		"role_code": "MIDS",
+		"role_name": "Midday Supervisor"
+	},
+	{
+		"role_code": "CATR",
+		"role_name": "Other Catering Staff"
+	},
+	{
+		"role_code": "OPRE",
+		"role_name": "Other Premises Staff"
+	},
+	{
+		"role_code": "PREM",
+		"role_name": "Premises Manager"
+	}
+]
