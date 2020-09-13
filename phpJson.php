@@ -32,9 +32,9 @@
 	}
 	$boolean = in_array('bool bool', $data[0]);
 	echo "I am trying to print a boolean scary!!! :".PHP_EOL;
-	if ($boolean == true)
+	if ($boolean === true)
 		echo "true".PHP_EOL;
-	if ($boolean == false)
+	if ($boolean === false)
 		echo "false".PHP_EOL;
 	//triming special characters from a string
 	$mystring = "I am the king of the' jungle* in @@@ african, savana!`whey whey.";
