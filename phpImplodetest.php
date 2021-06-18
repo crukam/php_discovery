@@ -1,17 +1,23 @@
 <?php
-$result = 0;
-$inbinary = decbin(7);
-$explodedBinary = explode ('1', $inbinary);
+function solution($N) {
+    // write your code in PHP7.0
+    if($N < 0) return 0;
+    $explodedBinary = explode ('1', decbin($N));
+    $lenghtZeros = array_map(function($item){return strlen($item);},$explodedBinary);
+    array_pop($lenghtZeros); 
+    return max($lenghtZeros);
+};
 
-print_r($inbinary); print_r(' ');
-//print_r($explodedBinary ); print_r(' ');
-//print_r($lenghtZeros ); print_r(' ');
-$lenghtZeros = array_map(function($item){return strlen($item);},$explodedBinary); ;
-array_pop($lenghtZeros); 
-print_r(max($lenghtZeros) ); print_r(' ');
-die();
+function solutionRotationCycle($arrayInput, $rotationIndex) {
+    $arrayOutput = [];
 
+    foreach($arrayInput as $index=>$input) {
+        $arrayOutput[($index + $rotationIndex) % COUNT($arrayInput)] = $arrayInput[$index];
+  
+    }
+    
+    ksort($arrayOutput);
 
-return $result;
-
+    return $arrayOutput;
+}
 
