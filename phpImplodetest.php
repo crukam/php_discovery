@@ -53,6 +53,23 @@ function solMinMissingInteger($inputArray){
    return $i;
 }
 
+function isPrime($a){
+   if ($a < 2) return 0;
+    for ($i=2; $i < (int) sqrt($a); $i++) if($a % $i ) return 0;
 
-print_r(solutionTheOddOut([1, 1, 6, 4, 4,6,74]).PHP_EOL);
+    return 1;
+}
+
+function frogJump($xCoordinate, $yCoordinate, $stepLength){
+    return ceil(($yCoordinate - $xCoordinate)/ $stepLength);
+}
+
+function notInRange($inputArray) {
+    return array_values(array_filter(range(1, (COUNT($inputArray)+1)), function ($item) use ($inputArray) {
+        return !in_array($item, $inputArray);
+    }))[0];
+}
+
+//print_r(sqrt(84923).PHP_EOL);
+print_r(notInRange([2,3,1,5]));
 //print_r(implode(',',range(1,1000)));
