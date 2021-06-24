@@ -45,3 +45,4 @@
 	echo "My trimmed string is :".PHP_EOL;
 	print_r($mystring_trimmed);
 	echo PHP_EOL;
+	

@@ -65,11 +65,40 @@ function frogJump($xCoordinate, $yCoordinate, $stepLength){
 }
 
 function notInRange($inputArray) {
-    return array_values(array_filter(range(1, (COUNT($inputArray)+1)), function ($item) use ($inputArray) {
-        return !in_array($item, $inputArray);
-    }))[0];
+    
+    sort($inputArray);
+    
+    for ($index = 0; $index < COUNT($inputArray); $index++) { 
+        if(($inputArray[$index] - $index) > 1) return ++$index;
+    }
+    
+     return ++$index ;
+ 
 }
 
+function tapeEquilibrium($inputArray) {
+    $minSum = 1000000000000;
+    $sumArray[0] = range(1,COUNT($inputArray)-1);
+    $sumArray[1] = range(1,COUNT($inputArray)-1);
+    $sumFront = 0;
+    $sumBack = 0;
+   
+    for($i=1; $i< COUNT($inputArray); $i++){
+        $sumArray[0][$i-1]= $sumFront + $inputArray[$i-1];
+        $sumFront = $sumArray[0][$i-1];
+        $sumArray[1][COUNT($inputArray)-($i+1)] = $sumBack + $inputArray[COUNT($inputArray) - $i];
+        $sumBack = $sumArray[1][COUNT($inputArray)-($i+1)];
+    }
+
+    for($j=0; $j< (COUNT($inputArray)-1); ++$j){
+        $diff=abs($sumArray[0][$j] - $sumArray[1][$j]);
+        if($diff <  abs($minSum))  $minSum = $diff;
+    }
+    
+    return ($minSum);
+}
+//print_r([3, 1, 2, 4, 3]); print(PHP_EOL);
+print_r(tapeEquilibrium([3, 1, 2, 4, 3]));
 //print_r(sqrt(84923).PHP_EOL);
-print_r(notInRange([2,3,1,5]));
+//print_r($map);
 //print_r(implode(',',range(1,1000)));
