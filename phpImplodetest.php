@@ -97,8 +97,53 @@ function tapeEquilibrium($inputArray) {
     
     return ($minSum);
 }
+
+function frogRiverOne($x, $inputArray) {
+    $numberOfLeafHit = 0;
+
+    for ($i=0; $i<$x; $i++){
+        $timeArray[$i] = -1;
+    }
+    
+    for($j=0; $j<COUNT($inputArray) && $numberOfLeafHit< $x ; $j++) {
+        if($timeArray[$inputArray[$j]-1] == -1) {
+            $timeArray[$inputArray[$j]-1] = $j;
+            $numberOfLeafHit++;
+            
+        }
+
+    } 
+    return ($numberOfLeafHit< $x) ? max($timeArray): -1;
+}
+
+function maxCounter($n, $inputArray) {
+    $counter = [];
+    
+    for ($i=0; $i<$n; $i++) {
+        $counter[$i] = 0;
+    }
+    
+    for($j=0; $j< COUNT($inputArray); $j++) {
+        if($inputArray[$j]>= 1 && $inputArray[$j] <= $n) {
+            $counter[$inputArray[$j]-1]++;
+        } else {
+            if($inputArray[$j]>= 1){
+                $max = max($counter);
+            
+                for($k=0; $k<$n; $k++) {
+                    $counter[$k] = $max;
+                }
+            }
+        }
+    }
+
+    return $counter;
+}
+
+print_r(maxCounter(5, [3, 4, 4, 6, 1, 4, 4]));
+//print_r(frogRiverOne(5,[3,2,2,3,3]));
 //print_r([3, 1, 2, 4, 3]); print(PHP_EOL);
-print_r(tapeEquilibrium([3, 1, 2, 4, 3]));
+//print_r(tapeEquilibrium([3, 1, 2, 4, 3]));
 //print_r(sqrt(84923).PHP_EOL);
 //print_r($map);
 //print_r(implode(',',range(1,1000)));
