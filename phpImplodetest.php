@@ -122,6 +122,29 @@ function maxCounter($n, $inputArray) {
     for ($i=0; $i<$n; $i++) {
         $counter[$i] = 0;
     }
+
+    $maxCounterForUpdated = 0;
+
+    for($index = 0 ; $index<COUNT($inputArray); $index++){
+        if($inputArray[$index] > $n){ 
+            $maxCounterForUpdated = max($counter);
+        }
+        
+        if($inputArray[$index] <= $n){
+            if($counter[$inputArray[$index]-1]< $maxCounterForUpdated) $counter[$inputArray[$index]-1] = $maxCounterForUpdated;
+            $counter[$inputArray[$index]-1]++;
+        }
+        print_r($maxCounterForUpdated); print_r(PHP_EOL);
+    }
+
+    for($k=0; $k<COUNT($counter); $k++){
+        if($counter[$k]< $maxCounterForUpdated) $counter[$k] = $maxCounterForUpdated;
+    }
+
+    /*for ($k=COUNT($inputArray)-1;$k>=0 && $inputArray[$k]>=$n+1 ;$k--)
+        ;
+    
+    $overNthItemIndex = $k;
     
     for($j=0; $j< COUNT($inputArray); $j++) {
         if($inputArray[$j]>= 1 && $inputArray[$j] <= $n) {
@@ -135,11 +158,11 @@ function maxCounter($n, $inputArray) {
                 }
             }
         }
-    }
+    }*/
 
     return $counter;
 }
-
+//("") ? print('it is not empty'): print('it is empty');
 print_r(maxCounter(5, [3, 4, 4, 6, 1, 4, 4]));
 //print_r(frogRiverOne(5,[3,2,2,3,3]));
 //print_r([3, 1, 2, 4, 3]); print(PHP_EOL);
